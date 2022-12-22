@@ -1,5 +1,5 @@
-const DgTokenContract = artifacts.require("DgToken.sol");
+const DcgTokenContract = artifacts.require("DcgToken.sol");
 
 module.exports = function (deployer) {
-    deployer.deploy(DgTokenContract);
+    deployer.deploy(DcgTokenContract);
 };
