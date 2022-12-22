@@ -3,6 +3,7 @@
 npm install
 npm install @truffle/hdwallet-provider
 npm install @openzeppelin/contracts
+npm install truffle-plugin-verify 
 ```
 
 ### Linter
@@ -37,5 +38,5 @@ truffle migrate --network bscmainnet
 ### Testnet Contract verify
 look for Contract name in build directory
 ```shell
-truffle run verify DgToken --network bsctestnet
+truffle run verify DcgToken --network bsctestnet
 ```
